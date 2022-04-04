@@ -37,7 +37,9 @@ Development
 * 
 ## Wireframes
 
+![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)
 
+* The initial concept of the wireframe design was to resemble/recreate the style of the now retro arcade or early computer game.
 
 ## Features
 
@@ -79,27 +81,14 @@ Development
 
 ### First Time Visitor Goals
 
-* As a First Time Visitor - Question
-                        = 
-                        Answer
-
-* As a First Time Visitor -  Question 
-                    = 
-                         Amswer
-* As a First Time Visitor - Question 
-                        = 
-                        Answer
-                   
-
+* As a game player I want a game that is visually appealing and colourful = 
+* As a game player I want a game that is easy to understand and fun, but also challenging enough to test my cognitive abilities = 
+* As a game player I want to be entertained and to enjoy the experience = 
 ### Returning/Frequent User Goals
 
-* As a Returning Visitor – Question = 
-                            Answer
-* As a Returning Visitor - Question = 
-                            Answer
-
-* As a Returning Visitor – Question = 
-                           Answer
+* As a returning game player I want the game to be familiar but a different challenge every time  =  
+* As a returning game player - 
+* As a returning game player  - 
 ## Credits
 
 ### Code

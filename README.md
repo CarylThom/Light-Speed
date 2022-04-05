@@ -86,9 +86,9 @@ Development
 * As a game player I want to be entertained and to enjoy the experience = 
 ### Returning/Frequent User Goals
 
-* As a returning game player I want the game to be familiar but a different challenge every time  =  
-* As a returning game player - 
-* As a returning game player  - 
+* As a returning game player =  
+* As a returning game player = 
+* As a returning game player =  
 ## Credits
 
 ### Code

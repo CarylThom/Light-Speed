@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+/*background image*/
+.game {
+   background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?t=st=1647950086~exp=1647950686~hmac=4de4122cf92eeef9eb93cda24693e58f7333bb758f971b28667a13b15de808d0&w=996") center center / cover no-repeat fixed;
+  width: 100vw;
+  overflow: hidden;
+ height: 100vh;
+  
+ 
+}
+
+.game:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  
+}

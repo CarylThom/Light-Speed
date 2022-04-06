@@ -3,13 +3,12 @@
 
 /*background image*/
 .game {
-   background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?t=st=1647950086~exp=1647950686~hmac=4de4122cf92eeef9eb93cda24693e58f7333bb758f971b28667a13b15de808d0&w=996") center center / cover no-repeat fixed;
+  background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?t=st=1647950086~exp=1647950686~hmac=4de4122cf92eeef9eb93cda24693e58f7333bb758f971b28667a13b15de808d0&w=996") center center / cover no-repeat fixed;
   width: 100vw;
   overflow: hidden;
- height: 100vh;
+  height: 100vh;
   
- 
-}
+ }
 
 .game:before{
     content: '';
@@ -20,3 +19,37 @@
     bottom: 0;
   
 }
+
+/*game box*/
+
+#game-box {
+  display: inline-block;
+  padding: 2% 2% 2% 2%;
+  margin-left: 23%;
+	border-radius: 50px;
+	width: 50%;
+	background: #daf0f8 ;
+  overflow: hidden;
+  margin-top: 1%;
+  opacity: 90%;
+  
+}
+
+.game-text {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  margin: 0;
+  list-style: none;
+  font-family: "Teko";
+  letter-spacing: 3px;
+     
+}
+
+/*buttons section*/
+
+/*media*/
+
+

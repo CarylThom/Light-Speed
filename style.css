@@ -22,17 +22,18 @@
 
 /*game box*/
 
-#game-box {
+#game-container {
   display: inline-block;
-  padding: 2% 2% 2% 2%;
-  margin-left: 23%;
+  padding: 2%;
 	border-radius: 50px;
 	width: 50%;
 	background: #daf0f8 ;
   overflow: hidden;
   margin-top: 1%;
-  opacity: 90%;
-  
+  opacity: 95%;
+  margin-left: 23%;
+  margin-bottom: 20px;
+
 }
 
 .game-text {
@@ -44,11 +45,54 @@
   margin: 0;
   list-style: none;
   font-family: "Teko";
-  letter-spacing: 3px;
+  letter-spacing: 5px;
      
 }
 
-/*buttons section*/
+/*main buttons section*/
+.button-container {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  grid-gap: 30px;
+  position: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.btn-red {
+  border-radius: 50%;
+  background-color: #d00639;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #760421, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.20s;
+}
+
+.btn-blue {
+  border-radius: 50%;
+  background-color: #497bee;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1205c2, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.20s;
+}
+
+.btn-green {
+  border-radius: 50%;
+  background-color: #1c924f;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.20s;
+}
+
+.btn-yellow {
+  border-radius: 50%;
+  background-color: #f5d63d;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #8a800a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.20s;
+}
+
+/*submit button section/*
+
+
 
 /*media*/
 

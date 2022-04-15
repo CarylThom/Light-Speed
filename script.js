@@ -2,7 +2,7 @@ let playerSequence = [];
 let computerSequence = [];
 let level = 0;
 
-/*const*/
+/*const for javascript queries*/
 const gameHeading = document.querySelector('.javascript-heading');
 
 const buttonContainer = document.querySelector('.game-container');

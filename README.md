@@ -39,7 +39,7 @@ Development
 
 ![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)
 
-* The initial concept of the wireframe design was to resemble/recreate the style of the now retro arcade or early computer game.
+* The initial concept of the wireframe design was to resemble/recreate the style of the now retro arcade or early computer game. The game buttons match the squares in the background image. There is a start button below the buttons and a progress panel below that, where player progress would be shown. the intention was to have a drop-down menu on the right of the screen to state the rules of the game.
 
 ## Features
 
@@ -76,6 +76,9 @@ Development
 * W3C Markup Validator report: 
 * W3C CSS Validator report:
 * Javascript Validator report:
+* Jest: I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+
+## Bugs and Issues
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -108,8 +111,4 @@ Development
 
 * The images used were by the photographers:
                 
-
-## Bugs and Issues
-
-* 
 

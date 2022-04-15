@@ -67,6 +67,7 @@
   pointer-events: none;
 }
 
+/*red button*/
 .btn-red {
   border-radius: 50%;
   background-color: #d00639;
@@ -74,6 +75,9 @@
   transition: 0.20s;
 }
 
+
+
+/*blue button*/
 .btn-blue {
   border-radius: 50%;
   background-color: #497bee;
@@ -81,12 +85,19 @@
   transition: 0.20s;
 }
 
+
+
+/*green button*/
 .btn-green {
   border-radius: 50%;
   background-color: #1c924f;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
+
+
+
+/*yellow button*/
 
 .btn-yellow {
   border-radius: 50%;
@@ -95,8 +106,9 @@
   transition: 0.20s;
 }
 
-/*submit button & game progress section*/
 
+
+/*submit button & game progress section*/
 .game-info {
   text-align: center;
   font-family: "Teko";

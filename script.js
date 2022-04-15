@@ -11,7 +11,19 @@ const startButton = document.querySelector('.javascript-start');
 
 const info = document.querySelector('.javascript-progress');
 
+/*activate buttons*/
+function activateButton(color) {
+const button = document.querySelector(`[data-button='${color}']`);
+}
 
+
+/*start game/start button*/
+function startGame() {
+startButton.classList.add('hidden');
+info.classList.remove('hidden');
+info.textContent = 'Please wait for Computer';
+nextRound();
+}
 
   
 

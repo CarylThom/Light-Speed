@@ -3,7 +3,7 @@
 
 /*background image*/
 .game {
-  background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?t=st=1647950086~exp=1647950686~hmac=4de4122cf92eeef9eb93cda24693e58f7333bb758f971b28667a13b15de808d0&w=996") center center / cover no-repeat fixed;
+  background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg") center center / cover no-repeat fixed;
   width: 100vw;
   overflow: hidden;
   height: 100vh;
@@ -168,11 +168,40 @@
 .start-button:hover {
   color: #000;
   border-color: rgb(143, 182, 233);
-  outline: 0;
+ 
 }
   
 
 
 /*media*/
+@media screen and (max-width: 550px) {
+  
+  
+
+  .game-heading {
+    font-size: 2rem;
+  }
+
+  .button-container {
+    width: 50%;
+    height: 50%;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+    margin-top: 10%;
+   
+  }
+
+  #game-container {
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    padding-top: 20%;
+  }
+ .start-button {
+  font-size: 1rem;
+ }
+}
+
+
 
 

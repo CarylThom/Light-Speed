@@ -7,18 +7,26 @@
   width: 100vw;
   overflow: hidden;
   height: 100vh;
-  
- }
+
+}
 
 .game:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-  
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
 }
+.hidden {
+  display: none !important;
+}
+
+.invisble {
+  visibility: hidden;
+}
+
 
 /*game text*/
 .game-heading {
@@ -37,9 +45,9 @@
 #game-container {
   display: inline-block;
   padding: 2%;
-	border-radius: 50px;
-	width: 50%;
-	background: #daf0f8 ;
+  border-radius: 50px;
+  width: 50%;
+  background: #daf0f8;
   overflow: hidden;
   margin-top: 1%;
   opacity: 95%;
@@ -74,11 +82,15 @@
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #760421, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
-.btn-red:hover,.btn-red:focus {
+
+.btn-red:hover,
+.btn-red:focus {
   background-color: #f50a45;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #760421, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
 }
-.btn-red:active,.btn-red.activated {
+
+.btn-red:active,
+.btn-red.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #760421;
   transform: translateY(20px);
@@ -92,13 +104,17 @@
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1205c2, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
-.btn-blue:hover,.btn-blue:focus {
-  background-color: #89aaec; 
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #89aaec;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #1205c2, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
 }
-.btn-blue:active,.btn-blue.activated {
+
+.btn-blue:active,
+.btn-blue.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #1205c2; 
+  background-color: #1205c2;
   transform: translateY(20px);
 }
 
@@ -109,13 +125,17 @@
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
-.btn-green:hover,.btn-green:focus {
+
+.btn-green:hover,
+.btn-green:focus {
   background-color: #9ff4a9;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
-.btn-green:active,.btn-green.activated {
+
+.btn-green:active,
+.btn-green.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #014105; 
+  background-color: #014105;
   transform: translateY(20px);
 }
 
@@ -127,11 +147,15 @@
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #8a800a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
-.btn-yellow:hover,.btn-yellow:focus {
+
+.btn-yellow:hover,
+.btn-yellow:focus {
   background-color: #f7ee8d;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #8a800a, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
 }
-.btn-yellow:active,.btn-yellow.activated {
+
+.btn-yellow:active,
+.btn-yellow.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #8a800a;
   transform: translateY(20px);
@@ -168,15 +192,15 @@
 .start-button:hover {
   color: #000;
   border-color: rgb(143, 182, 233);
- 
+
 }
-  
+
 
 
 /*media*/
 @media screen and (max-width: 550px) {
-  
-  
+
+
 
   .game-heading {
     font-size: 2rem;
@@ -188,7 +212,8 @@
     grid-template-rows: 50px 50px;
     grid-template-columns: 50px 50px;
     margin-top: 10%;
-   
+
+
   }
 
   #game-container {
@@ -197,11 +222,8 @@
     text-align: center;
     padding-top: 20%;
   }
- .start-button {
-  font-size: 1rem;
- }
+
+  .start-button {
+    font-size: 1rem;
+  }
 }
-
-
-
-

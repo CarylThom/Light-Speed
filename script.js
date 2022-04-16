@@ -1,43 +1,51 @@
-let playerSequence = [];
 let computerSequence = [];
+let playerSequence = [];
 let level = 0;
 
-/*const for javascript queries*/
+/*javascript query selectors*/
+const buttonContainer = document.querySelector('.game-container');
+const startButton = document.querySelector('.javascript-start');
+const info = document.querySelector('.javascript-progress');
 const gameHeading = document.querySelector('.javascript-heading');
 
-const buttonContainer = document.querySelector('.game-container');
+/*Function to set/reset the game*/
+function resetGame(text) {
+  alert(text);
+  computerSequence = [];
+  playerSequence = [];
+  level = 0;
+  startButton.classList.remove('hidden');
+  gameHeading.textContent = 'LightSpeed!';
+  info.classList.add('hidden');
+  buttonContainer.classList.add('no-click');
+}
 
-const startButton = document.querySelector('.javascript-start');
-
-const info = document.querySelector('.javascript-progress');
-
-/*activate buttons*/
+/*Function to set the players turn*/
+function playerTurn(level) {
+  buttonContainer.classList.remove('no-click');
+  info.textContent = `Your Turn Now: Level:${level} - Clicks:${level}`;
+}
+/*Function to activate buttons when pushed*/
 function activateButton(color) {
-const button = document.querySelector(`[data-button='${color}']`);
+  const button = document.querySelector(`[data-button='${color}']`);
+  button.classList.add('activated');
+  setTimeout(() => {
+    button.classList.remove('activated');
+  }, 300);
 }
 
-
-/*start game/start button*/
+/*function for start button on footer of page, that sets the game in motion*/
 function startGame() {
-startButton.classList.add('hidden');
-info.classList.remove('hidden');
-info.textContent = 'Please wait for Computer';
-nextRound();
+  startButton.classList.add('hidden');
+  info.classList.remove('hidden');
+  info.textContent = 'Please Wait for Computer';
+  nextGame();
 }
 
-  
 
 
 
 
-function playerTurn(){
 
-}
 
-function playGame(){
 
-}
-
-function nextGame(){
-    
-}

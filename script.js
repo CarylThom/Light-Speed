@@ -51,6 +51,43 @@ function nextLevel() {
   return random;
 }
 
+/* Function to activate next game/computer turn leading to player turn and initial game progress and level text. Number of levels in the game can be changed here*/
+function nextGame() {
+  level += 1;
+
+  buttonContainer.classList.add('no-click');
+  info.textContent = 'Please Wait For Computer';
+  gameHeading.textContent = `Level ${level} of 15`;
+
+  const nextSequence = [...computerSequence];
+  nextSequence.push(nextLevel());
+  playGame(nextSequence);
+
+  computerSequence = [...nextSequence];
+  setTimeout(() => {
+    playerTurn(level);
+  }, level * 600 + 1000);
+
+}
+
+/*Function for activation of game buttons and the result/text when move is correct and result/text when move is wrong */
+function onClick(button) {
+  const index = playerSequence.push(button) - 1;
+  
+
+  const remainingClicks = computerSequence.length - playerSequence.length;
+
+  if (playerSequence[index] !== computerSequence[index]) {
+    resetGame('Highly illogical Move! -  Game Over');
+    return;
+  }
+
+  if (playerSequence.length === computerSequence.length) {
+    if (playerSequence.length === 15) {
+      resetGame('Congratulations! Very impressive - You Completed The Game');
+      return
+    }
+
 /*function for start button on footer of page, that sets the game in motion*/
 function startGame() {
   startButton.classList.add('hidden');
@@ -65,4 +102,4 @@ function startGame() {
 
 
 
-
+  

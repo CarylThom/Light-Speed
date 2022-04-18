@@ -34,6 +34,23 @@ function activateButton(color) {
   }, 300);
 }
 
+/*Function to activate next button sequence*/ 
+function playGame(nextSequence) {
+  nextSequence.forEach((color, index) => {
+    setTimeout(() => {
+      activateButton(color);
+    }, (index + 1) * 600);
+  });
+}
+
+/*Function to move game to next level*/
+function nextLevel() {
+  const buttons = ['red', 'green', 'blue', 'yellow'];
+  const random = buttons[Math.floor(Math.random() * buttons.length)];
+
+  return random;
+}
+
 /*function for start button on footer of page, that sets the game in motion*/
 function startGame() {
   startButton.classList.add('hidden');

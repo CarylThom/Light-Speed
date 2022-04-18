@@ -70,7 +70,8 @@ function nextGame() {
 
 }
 
-/*Function for activation of game buttons and the result/text when move is correct and result/text when move is wrong */
+/*Function for activation of game buttons and the result/text when move is correct and result/text when move is wrong. 
+Also shows how many 'clicks' the player has left to complete the sequence*/
 function onClick(button) {
   const index = playerSequence.push(button) - 1;
   
@@ -88,7 +89,18 @@ function onClick(button) {
       return
     }
 
-/*function for start button on footer of page, that sets the game in motion*/
+playerSequence = [];
+info.textContent = 'Keep Going';
+setTimeout (() => {
+  nextGame();
+}, 1000);
+return;
+}
+info.textContent = `Your Turn Now: - Clicks:${remainingClicks}`;
+  }
+
+
+/*function for start button on footer of page, that sets the game in motion*. Event listeners identify which/when buttons are clicked*/
 function startGame() {
   startButton.classList.add('hidden');
   info.classList.remove('hidden');
@@ -96,6 +108,14 @@ function startGame() {
   nextGame();
 }
 
+startButton.addEventListener('click', startGame);
+buttonContainer.addEventListener('click', event => {
+  const {
+    button
+  } = event.target.dataset;
+
+  if (button) onClick(button);
+});
 
 
 

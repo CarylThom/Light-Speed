@@ -33,7 +33,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Typography
 
-* 
+* The main font used for the game is 
 
 ### Imagery
 

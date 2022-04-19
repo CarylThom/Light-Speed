@@ -44,7 +44,7 @@
 /*game box*/
 #game-container {
   display: inline-block;
-  padding: 2%;
+  padding-top: 1%;
   border-radius: 50px;
   width: 50%;
   background: #daf0f8;
@@ -52,8 +52,8 @@
   margin-top: 1%;
   opacity: 95%;
   margin-left: 23%;
-  margin-bottom: 25px;
-
+  padding-bottom: 1%;
+  
 }
 
 
@@ -67,8 +67,8 @@
   position: center;
   margin-top: 20px;
   margin-bottom: 15px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 18%;
+  margin-right: 10%;
 }
 
 .no-click {
@@ -218,13 +218,14 @@
     grid-template-columns: 200px 200px;
     padding-bottom: 5%;
     
+    
   }
   #game-container {
-    width: 85%;
+    width: 80%;
     margin-top: 28%;
     margin-left: 8%;
     padding-bottom: 5%;
-
+    padding-left: 10%;
   }
   .start-button {
     font-size: 2rem;
@@ -245,12 +246,12 @@
     grid-template-rows: 100px 100px;
     grid-template-columns: 100px 100px;
     padding-bottom: 5%;
-    
+    margin-left: 10%;
   }
   #game-container {
     width: 95%;
     margin-top: 40%;
-    margin-left: 3%;
+    margin-left: 2%;
     padding-bottom: 5%;
   }
   .game-heading {
@@ -263,4 +264,5 @@
   font-size: 1.5rem;
 }
   
-}}
+}
+}

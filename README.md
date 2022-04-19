@@ -12,15 +12,18 @@ Development
 
 ### First Time Visitor Goals
 
-* As a First Time Visitor - 
-* As a First Time Visitor - 
-* As a First Time Visitor – 
+As a First Time Visitor - As a game player I want a game that is visually appealing and fun = The game is based on the retro arcade or early computer games and the graphics and colour choices should reflect this.
+* As a First Time Visitor - As a game player I want a game that is easy to understand while still testing my cognitive abilities = A very straightforward memory game with a random sequence that changes the game with each attempt. 
+* As a First Time Visitor – As a game player I want to be entertained and to enjoy the experience = The game can be a personal challenge or just help pass the time.
+
+
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – 
-* As a Returning Visitor - 
-* As a Returning Visitor – 
+* As a Returning Visitor – I would like the game to stay familiar = In it's current form the game, rules or design, do not change.
+* As a Returning Visitor - I want to play the game whenever I wish = the game can be played on desktop, tablet or mobile. 
+* As a Returning Visitor – I want the game to continue to be a challenge = The random sequence of the game ensures that no two levels will be the same.
+
 
 ## Design
 

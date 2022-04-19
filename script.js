@@ -100,7 +100,7 @@ info.textContent = `Your Turn Now: - Clicks:${remainingClicks}`;
   }
 
 
-/*function for start button on footer of page, that sets the game in motion*. Event listeners identify which/when buttons are clicked*/
+/*function for start button that sets the game in motion (located at page footer). Event listeners identify which/when buttons are clicked*/
 function startGame() {
   startButton.classList.add('hidden');
   info.classList.remove('hidden');

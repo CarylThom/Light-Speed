@@ -76,21 +76,21 @@
 }
 
 /*red button*/
-.btn-red {
+.button-red {
   border-radius: 50%;
   background-color: #d00639;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #760421, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.btn-red:hover,
-.btn-red:focus {
+.button-red:hover,
+.button-red:focus {
   background-color: #f50a45;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #760421, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
 }
 
-.btn-red:active,
-.btn-red.activated {
+.button-red:active,
+.button-red.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #760421;
   transform: translateY(20px);
@@ -98,42 +98,42 @@
 
 
 /*blue button*/
-.btn-blue {
+.button-blue {
   border-radius: 50%;
   background-color: #497bee;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1205c2, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.btn-blue:hover,
-.btn-blue:focus {
+.button-blue:hover,
+.button-blue:focus {
   background-color: #89aaec;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #1205c2, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
 }
 
-.btn-blue:active,
-.btn-blue.activated {
+.button-blue:active,
+.button-blue.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #1205c2;
   transform: translateY(20px);
 }
 
 /*green button*/
-.btn-green {
+.button-green {
   border-radius: 50%;
   background-color: #1c924f;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.btn-green:hover,
-.btn-green:focus {
+.button-green:hover,
+.button-green:focus {
   background-color: #9ff4a9;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-.btn-green:active,
-.btn-green.activated {
+.button-green:active,
+.button-green.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #014105;
   transform: translateY(20px);
@@ -141,21 +141,21 @@
 
 
 /*yellow button*/
-.btn-yellow {
+.button-yellow {
   border-radius: 50%;
   background-color: #f5d63d;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #8a800a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.btn-yellow:hover,
-.btn-yellow:focus {
+.button-yellow:hover,
+.button-yellow:focus {
   background-color: #f7ee8d;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #8a800a, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
 }
 
-.btn-yellow:active,
-.btn-yellow.activated {
+.button-yellow:active,
+.button-yellow.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
   background-color: #8a800a;
   transform: translateY(20px);

@@ -86,7 +86,7 @@ function onClick(button) {
   if (playerSequence.length === computerSequence.length) {
     if (playerSequence.length === 15) {
       resetGame('Congratulations! Very impressive - You Completed The Game');
-      return
+      return;
     }
 
 playerSequence = [];

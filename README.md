@@ -1,5 +1,6 @@
 # Title
-Light Speed!
+LightSpeed
+
 Milestone Project 2
 Interactive Front-End
 Development
@@ -15,7 +16,7 @@ Development
 ### First Time Visitor Goals
 
 As a First Time Visitor - As a game player I want a game that is visually appealing and fun = The game is based on the retro arcade or early computer games and the graphics and colour choices should reflect this.
-* As a First Time Visitor - As a game player I want a game that is easy to understand while still testing my cognitive abilities = A very straightforward memory game with a random sequence that changes the game with each attempt. 
+* As a First Time Visitor - As a game player I want a game that is easy to understand while still testing my cognitive abilities = The game is a very straightforward memory game with a random sequence that changes the game with each attempt. 
 * As a First Time Visitor – As a game player I want to be entertained and to enjoy the experience = The game can be a personal challenge or just help pass the time.
 
 
@@ -43,7 +44,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Imagery
 
-* The imagery included are - the background image, the tab favicon and a fontawsome icon on the start button.
+* The imagery included are - the background image, the tab favicon and an icon on the start button.
 ## Wireframes
 
 ![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)
@@ -54,7 +55,6 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Responsive 
 
-* The interactive elements 
 ## Languages Used
 
 * HTML5
@@ -71,7 +71,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * GitHub: GitHub is used to store the project code after being pushed from Git. 
 
-* Responsivedesignchecker.com
+* [www.Responsivedesignchecker.com]
 
 * Pencil: - Pencil was used to create the wireframe.
 
@@ -87,29 +87,20 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * Javascript Validator report:
 * Jest: I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
 
-## Bugs and Issues
 
-## Testing User Stories from User Experience (UX) Section
-
-### First Time Visitor Goals
-
-* As a game player I want a game that is visually appealing and colourful = 
-* As a game player I want a game that is easy to understand and fun, but also challenging enough to test my cognitive abilities = 
-* As a game player I want to be entertained and to enjoy the experience = 
-### Returning/Frequent User Goals
-
-* As a returning game player =  
-* As a returning game player = 
-* As a returning game player =  
 ## Credits
 
 ### Code
 
-* Reviewing and revisit lessons from the HTML, CSS and Javascript section of the course via [Code Institute] 
+* Reviewing and revisit lessons from the relevant sections of the course via Code Institute. 
 
 * Mentor Tim Nelson at Code Institute
 
 * Tutors and student support at Code Institute
+
+* Stack Overflow [www.stackoverflow.com]
+
+* w3schools [www.w3schools.com]
 
 ### Content
 
@@ -117,8 +108,9 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Media
 
-* Image(s) were found on []
+* Image(s) were found on [www.freepix.com]
 
-* The images used were by the photographers:
+* The image(s) attributed to: Background image - @upklyak
+                              Favicon image - unknown
                 
 

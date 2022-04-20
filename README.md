@@ -6,7 +6,9 @@ Development
 
 ## Description
 
-* 
+* LightSpeed is a game designed to be fun, enjoyable and a light-hearted way to pass the time. Although slightly challenging the game can be beneficial to cognitive abilities and can be played anywhere, anytime and by any ages. 
+
+ 
 
 ## User Experience (UX)
 
@@ -27,9 +29,13 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ## Design
 
+### General design
+
+* The game has a space style image set as a background to invoke a retro feel to the game. the circle of the game buttons represent planets, and also correspond with the planets in the background image. When the start button is pressed the rules/steps of the game are shown as the player progresses. 
+
 ### Colour Scheme
 
-* 
+* The game has a light and colourful background, text colour of black, with the main game buttons in different shades of purple, green, blue and orange.
 
 ### Typography
 
@@ -37,12 +43,12 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Imagery
 
-* 
+* The imagery included are - the background image, the tab favicon and a fontawsome icon on the start button.
 ## Wireframes
 
 ![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)
 
-* The initial concept of the wireframe design was to resemble/recreate the style of the now retro arcade or early computer game. The game buttons match the squares in the background image. There is a start button below the buttons and a progress panel below that, where player progress would be shown. the intention was to have a drop-down menu on the right of the screen to state the rules of the game.
+* The initial concept of the wireframe design was to resemble/recreate the style of the now retro arcade or early computer game. The game buttons match the squares in the background image. There is a start button below the buttons, and a progress panel below that where player progress would be shown. the intention was to have a drop-down menu on the right of the screen to state the rules of the game.
 
 ## Features
 
@@ -69,7 +75,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Pencil: - Pencil was used to create the wireframe.
 
-* freepix: - One image was obtained from this site.
+* freepix: - Both images were obtained from this site.
 
 
 ## Testing
@@ -101,9 +107,10 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Reviewing and revisit lessons from the HTML, CSS and Javascript section of the course via [Code Institute] 
 
-* The tutors at Code Institute
+* Mentor Tim Nelson at Code Institute
 
-* Mentor at Code Institute
+* Tutors and student support at Code Institute
+
 ### Content
 
 * All content was written by the developer.

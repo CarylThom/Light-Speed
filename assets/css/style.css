@@ -39,6 +39,7 @@
   list-style: none;
   font-family: 'Press Start 2P';
   letter-spacing: 8px;
+ 
 }
 
 /*game box*/
@@ -75,91 +76,92 @@
   pointer-events: none;
 }
 
-/*red button*/
-.button-red {
+/*purple button*/
+.button-purple {
   border-radius: 50%;
-  background-color: #d00639;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #760421, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #d111df;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #5c036d, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.button-red:hover,
-.button-red:focus {
-  background-color: #f50a45;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #760421, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+.button-purple:hover,
+.button-purple:focus {
+  background-color: #efc0f2;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #5c036d, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
 }
 
-.button-red:active,
-.button-red.activated {
+.button-purple:active,
+.button-purple.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #760421;
+  background-color: #5c036d;
   transform: translateY(20px);
 }
 
-
-/*blue button*/
-.button-blue {
-  border-radius: 50%;
-  background-color: #497bee;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1205c2, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
-  transition: 0.20s;
-}
-
-.button-blue:hover,
-.button-blue:focus {
-  background-color: #89aaec;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #1205c2, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
-}
-
-.button-blue:active,
-.button-blue.activated {
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #1205c2;
-  transform: translateY(20px);
-}
 
 /*green button*/
 .button-green {
   border-radius: 50%;
-  background-color: #1c924f;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #3df56b;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1b8019, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
 .button-green:hover,
 .button-green:focus {
-  background-color: #9ff4a9;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #014105, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #b4eec0;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #1b8019, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
 }
 
 .button-green:active,
 .button-green.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #014105;
+  background-color: #1b8019;
   transform: translateY(20px);
 }
 
-
-/*yellow button*/
-.button-yellow {
+/*blue button*/
+.button-blue {
   border-radius: 50%;
-  background-color: #f5d63d;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #8a800a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #5f5de5;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #020c5a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
 
-.button-yellow:hover,
-.button-yellow:focus {
-  background-color: #f7ee8d;
-  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #8a800a, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+.button-blue:hover,
+.button-blue:focus {
+  background-color: #a8def5;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #020c5a, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-.button-yellow:active,
-.button-yellow.activated {
+.button-blue:active,
+.button-blue.activated {
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
-  background-color: #8a800a;
+  background-color: #020c5a;
   transform: translateY(20px);
 }
+
+
+/*orange button*/
+.button-orange {
+  border-radius: 50%;
+  background-color: #dd6b1f;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #6c1e04, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.20s;
+}
+
+.button-orange:hover,
+.button-orange:focus {
+  background-color: #f7d19c;
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 10px 0 0 #a32d05, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+
+.button-orange:active,
+.button-orange.activated {
+  box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #a32d05;
+  transform: translateY(20px);
+}
+
 
 
 
@@ -169,6 +171,7 @@
   font-family: 'Press Start 2P';
   font-size: 1rem;
   padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .start-button {

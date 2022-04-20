@@ -45,7 +45,7 @@ function playGame(nextSequence) {
 
 /*Function to move game to next level*/
 function nextLevel() {
-  const buttons = ['red', 'green', 'blue', 'yellow'];
+  const buttons = ['purple', 'green', 'blue', 'orange'];
   const random = buttons[Math.floor(Math.random() * buttons.length)];
 
   return random;

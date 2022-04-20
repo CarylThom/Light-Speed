@@ -33,7 +33,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Typography
 
-* The main font used for the game is 
+* The main font used for the game is Press Start 2P as this provides an early computer game style.
 
 ### Imagery
 
@@ -57,9 +57,9 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ## Frameworks, Libraries & Programs Used
 
-* Google Fonts: Google Fonts was used for all fonts
+* Google Fonts: Google Fonts was used for all fonts.
 
-* Font Awesome: 
+* Font Awesome: Font Awesome was used for the rocket icon.
 
 * Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 

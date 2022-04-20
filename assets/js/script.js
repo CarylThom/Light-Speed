@@ -56,7 +56,7 @@ function nextGame() {
   level += 1;
 
   buttonContainer.classList.add('no-click');
-  info.textContent = 'Please Wait For Computer';
+  info.textContent = 'Please Wait For Computer..';
   gameHeading.textContent = `Level ${level} of 15`;
 
   const nextSequence = [...computerSequence];
@@ -90,7 +90,7 @@ function onClick(button) {
     }
 
 playerSequence = [];
-info.textContent = 'Keep Going';
+info.textContent = 'Keep Going..';
 setTimeout (() => {
   nextGame();
 }, 1000);

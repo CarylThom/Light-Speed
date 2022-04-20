@@ -48,7 +48,7 @@
   padding-top: 1%;
   border-radius: 50px;
   width: 50%;
-  background: #daf0f8;
+  background: #9fadb2;
   overflow: hidden;
   margin-top: 1%;
   opacity: 95%;
@@ -101,7 +101,7 @@
 /*green button*/
 .button-green {
   border-radius: 50%;
-  background-color: #3df56b;
+  background-color: #35df5f;
   box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px rgba(255, 255, 255, 0.25) inset, 0 8px 0 0 #1b8019, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   transition: 0.20s;
 }
@@ -194,8 +194,8 @@
 }
 
 .start-button:hover {
-  color: #000;
-  border-color: rgb(143, 182, 233);
+  color: #fafafa;
+  border-color: #fafafa;
 
 }
 

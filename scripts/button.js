@@ -1,6 +1,6 @@
 let button = {
     activateButton: [],
-    score: 0,
+   
 };
 
 

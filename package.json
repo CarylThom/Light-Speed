@@ -1,0 +1,25 @@
+{
+  "name": "light-speed",
+  "version": "1.0.0",
+  "description": "LightSpeed",
+  "main": "button.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarylThom/Light-Speed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarylThom/Light-Speed/issues"
+  },
+  "homepage": "https://github.com/CarylThom/Light-Speed#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

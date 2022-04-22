@@ -13,9 +13,17 @@
     document.close();
 });
 
-describe("game contains correct button", () => {
+describe("activateButton key exists", () => {
     test("button works", () => {
         expect("activateButton" in button).toBe(true);
     });
-    
+
+    test("startGame key exists", () => {
+       expect("startGame" in button).toBe(true);
+        
+    });
+    test("button choices contain correct name", () => {
+        expect(button.choices).toEqual(["button-purple", "button-green", "button-blue", "button-orange"]);
 });
+});
+

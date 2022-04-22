@@ -59,11 +59,11 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * HTML5
 * CSS3
-* JavaScript
+* JavaScriptES6
 
 ## Frameworks, Libraries & Programs Used
 
-* Google Fonts: Google Fonts was used for all fonts.
+* Google Fonts: Google Fonts was used for the main font.
 
 * Font Awesome: Font Awesome was used for the rocket icon.
 
@@ -83,16 +83,19 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * Lighthouse test report: 
 
 * W3C Markup Validator report: 
+
 * W3C CSS Validator report:
+
 * Javascript Validator report:
+
 * Jest: I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
 
 
 ## Credits
 
-### Code
+### Acknowledgements
 
-* Reviewing and revisit lessons from the relevant sections of the course via Code Institute. 
+* Reviewing/revisiting lessons from the relevant sections of the course via Code Institute. 
 
 * Mentor Tim Nelson at Code Institute
 

@@ -1,3 +1,5 @@
+/* jshint esversion: 8 */
+
 let computerSequence = [];
 let playerSequence = [];
 let level = 0;

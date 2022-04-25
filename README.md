@@ -111,9 +111,8 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Media
 
-* Image(s) were found on [www.freepix.com]
+* Image(s) were found on [https://www.freepik.com/]
 
-* The image(s) attributed to: Background image - @upklyak
-                              Favicon image - unknown
+* The image(s) attributed to: Background image - by @upklyak . Favicon image - by freepik
                 
 

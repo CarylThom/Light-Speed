@@ -53,7 +53,11 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ## Features
 
-* Responsive 
+* Game is responsive on most mobiles and tablets
+* Game has a responsive start button and buttons required to play the game
+* Game responds and resets when the player has made a correct or incorrect move
+* Game has text to show game/player progression 
+ 
 
 ## Languages Used
 

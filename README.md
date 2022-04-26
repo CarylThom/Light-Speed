@@ -57,9 +57,9 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ## Languages Used
 
-* HTML5
-* CSS3
-* JavaScriptES6
+* HTML5 - [https://en.wikipedia.org/wiki/HTML5]
+* CSS3 - [https://en.wikipedia.org/wiki/CSS#CSS_3]
+* JavaScript (ES6) - [https://en.wikipedia.org/wiki/JavaScript]
 
 ## Frameworks, Libraries & Programs Used
 
@@ -119,9 +119,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 * Tutors and student support at Code Institute
 
-* Stack Overflow [www.stackoverflow.com]
+* Stack Overflow [http://www.stackoverflow.com]
 
-* w3schools [www.w3schools.com]
+* w3schools [http://www.w3schools.com]
 
 ### Content
 
@@ -131,6 +131,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 * Image(s) were found on [https://www.freepik.com/]
 
-* The image(s) attributed to: Background image - by @upklyak . Favicon image - by freepik
+* The image(s) attributed to: Background image by @upklyak . Favicon image by freepik
                 
 

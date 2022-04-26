@@ -86,7 +86,8 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Lighthouse test report: 
 
-* W3C Markup Validator report: 
+* W3C Markup Validator report: One warning was issues with HTML validation but this does not affect the game.
+![image](https://user-images.githubusercontent.com/95102264/165341524-71ffb0cf-bfdf-4529-82f0-9012c0303b40.png) 
 
 * W3C CSS Validator report:
 

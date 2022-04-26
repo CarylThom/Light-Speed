@@ -40,7 +40,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Typography
 
-* The main font used for the game is Press Start 2P as this provides an early computer game style -  [https://fonts.google.com/specimen/Press+Start+2P]
+* The main font used for the game is Press Start 2P as this provides an early computer/arcade game style -  [https://fonts.google.com/specimen/Press+Start+2P]
 
 ### Imagery
 
@@ -92,7 +92,12 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Javascript Validator report:
 
-* Jest: I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+* Jest: Steps take to install Jest * (1) To set up the new npm package type 'npm init' 
+                                   * (2) To install type 'npm install --save-dev jest'  
+                                   * (3) Follow the instuctions and questions in the terminal
+                                   * (4) Build tests
+                                   * (5) Run tests by typing 'npm test'
+* I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
 
 ## Deployment
 

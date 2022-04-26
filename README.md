@@ -40,7 +40,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Typography
 
-* The main font used for the game is Press Start 2P as this provides an early computer game style.
+* The main font used for the game is Press Start 2P as this provides an early computer game style -  [https://fonts.google.com/specimen/Press+Start+2P]
 
 ### Imagery
 

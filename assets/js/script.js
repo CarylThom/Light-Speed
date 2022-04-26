@@ -36,7 +36,7 @@ function activateButton(color) {
   }, 300);
 }
 
-/*Function to activate next button sequence*/ 
+/*Function to activate next button sequence*/
 function playGame(nextSequence) {
   nextSequence.forEach((color, index) => {
     setTimeout(() => {
@@ -76,7 +76,7 @@ function nextGame() {
 Also shows how many 'clicks' the player has left to complete the sequence*/
 function onClick(button) {
   const index = playerSequence.push(button) - 1;
-  
+
 
   const remainingClicks = computerSequence.length - playerSequence.length;
 
@@ -91,15 +91,15 @@ function onClick(button) {
       return;
     }
 
-playerSequence = [];
-info.textContent = 'Keep Going..';
-setTimeout (() => {
-  nextGame();
-}, 1000);
-return;
-}
-info.textContent = `Your Turn Now: - Clicks:${remainingClicks}`;
+    playerSequence = [];
+    info.textContent = 'Keep Going..';
+    setTimeout(() => {
+      nextGame();
+    }, 1000);
+    return;
   }
+  info.textContent = `Your Turn Now: - Clicks:${remainingClicks}`;
+}
 
 
 /*function for start button that sets the game in motion (located at page footer). Event listeners identify which/when buttons are clicked*/
@@ -118,10 +118,3 @@ buttonContainer.addEventListener('click', event => {
 
   if (button) onClick(button);
 });
-
-
-
-
-
-
-  

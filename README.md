@@ -91,7 +91,8 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * W3C CSS Validator report:
 
-* Javascript Validator report:
+* Javascript Validator report: [https://beautifytools.com/javascript-validator.php] was used to test JavaScript. No issues were found.
+![image](https://user-images.githubusercontent.com/95102264/165343331-21f38fbf-1f3e-4862-9955-e1a2d3ad0045.png)
 
 * Jest: Steps take to install Jest * (1) To set up the new npm package type 'npm init' 
                                    * (2) To install type 'npm install --save-dev jest'  

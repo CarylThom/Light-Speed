@@ -15,8 +15,10 @@ Development
 
 ### First Time Visitor Goals
 
-As a First Time Visitor - As a game player I want a game that is visually appealing and fun = The game is based on the retro arcade or early computer games and the graphics and colour choices should reflect this.
-* As a First Time Visitor - As a game player I want a game that is easy to understand while still testing my cognitive abilities = The game is a very straightforward memory game with a random sequence that changes the game with each attempt. 
+As a First Time Visitor - As a game player I want a game that is visually appealing and fun = The game is based on the retro arcade or early computer games and the graphics and colour choices should reflect this. ![image](https://user-images.githubusercontent.com/95102264/166072369-fe84be7a-077d-4e54-9d30-c37079776b0f.png)
+
+* As a First Time Visitor - As a game player I want a game that is easy to understand while still testing my cognitive abilities = The game is a very straightforward memory game with a random sequence. Levels and game progress can be seen at the top and bottom. ![image](https://user-images.githubusercontent.com/95102264/166072780-1844e53b-3e58-4700-a9bc-4209e697cb5e.png)
+
 * As a First Time Visitor – As a game player I want to be entertained and to enjoy the experience = The game can be a personal challenge or just help pass the time.
 
 
@@ -86,7 +88,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Lighthouse test report: 
 
-* W3C Markup Validator report: One warning was issues with HTML validation but this does not affect the game.
+* W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the game in any way.
 ![image](https://user-images.githubusercontent.com/95102264/165341524-71ffb0cf-bfdf-4529-82f0-9012c0303b40.png) 
 
 * W3C CSS Validator report:
@@ -94,11 +96,12 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * Javascript Validator report: [https://beautifytools.com/javascript-validator.php] was used to test JavaScript. No issues were found.
 ![image](https://user-images.githubusercontent.com/95102264/165343331-21f38fbf-1f3e-4862-9955-e1a2d3ad0045.png)
 
-* Jest: Steps take to install Jest * (1) To set up the new npm package type 'npm init' 
-                                   * (2) To install type 'npm install --save-dev jest'  
-                                   * (3) Follow the instuctions and questions in the terminal
-                                   * (4) Build tests
-                                   * (5) Run tests by typing 'npm test'
+* Jest: Steps take to install Jest 
+* (1) To set up the new npm package type 'npm init' 
+* (2) To install type 'npm install --save-dev jest'  
+* (3) Follow the instuctions and questions in the terminal
+* (4) write specific tests
+* (5) Run tests by typing 'npm test'
 * I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
 
 ## Deployment

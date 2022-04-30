@@ -93,7 +93,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * W3C CSS Validator report:
 
-* Javascript Validator report: [https://beautifytools.com/javascript-validator.php] was used to test JavaScript. No issues were found.
+* Javascript Validator report: [https://beautifytools.com/javascript-validator.php] was used to test JavaScript. No syntax errors were found.
 ![image](https://user-images.githubusercontent.com/95102264/165343331-21f38fbf-1f3e-4862-9955-e1a2d3ad0045.png)
 
 * Jest: Steps take to install Jest 
@@ -103,6 +103,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * (4) write specific tests
 * (5) Run tests by typing 'npm test'
 * I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+![image](https://user-images.githubusercontent.com/95102264/166104536-44f915ad-1543-4510-a20a-7795a65da4b1.png)
 
 ## Deployment
 

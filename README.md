@@ -91,7 +91,8 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the game in any way.
 ![image](https://user-images.githubusercontent.com/95102264/165341524-71ffb0cf-bfdf-4529-82f0-9012c0303b40.png) 
 
-* W3C CSS Validator report:
+* W3C CSS Validator report: No errors were found within the CSS code.
+![image](https://user-images.githubusercontent.com/95102264/166104763-72f0e223-e3e8-4339-b072-e45b9612bb5c.png) 
 
 * Javascript Validator report: [https://beautifytools.com/javascript-validator.php] was used to test JavaScript. No syntax errors were found.
 ![image](https://user-images.githubusercontent.com/95102264/165343331-21f38fbf-1f3e-4862-9955-e1a2d3ad0045.png)

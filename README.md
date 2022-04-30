@@ -86,7 +86,10 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ## Testing
 
-* Lighthouse test report: 
+* Lighthouse test report: Lighthouse test for mobile  ![image](https://user-images.githubusercontent.com/95102264/166105066-7e03ac83-a3fe-46e3-b9a7-b7051846019e.png) 
+
+* Lighthouse test report: Lighthouse test for desktop ![image](https://user-images.githubusercontent.com/95102264/166105254-f2588b8e-df5f-478d-9fed-0b7f4c79db7c.png)
+
 
 * W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the game in any way.
 ![image](https://user-images.githubusercontent.com/95102264/165341524-71ffb0cf-bfdf-4529-82f0-9012c0303b40.png) 

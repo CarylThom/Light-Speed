@@ -1,5 +1,5 @@
 # Title
-LightSpeed
+## LightSpeed
 
 Milestone Project 2
 Interactive Front-End
@@ -46,7 +46,11 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Imagery
 
-* The imagery included are - the background image, the tab favicon and an icon on the start button.
+* The imagery included are - the background image, 
+
+![image](https://user-images.githubusercontent.com/95102264/166146659-8d14f853-76c7-43b6-ab14-679d66e0d921.png) The tab Favicon. 
+
+and an icon on the start button.
 ## Wireframes
 
 ![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)

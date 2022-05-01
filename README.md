@@ -60,6 +60,9 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * Game has a responsive start button and buttons required to play the game
 * Game responds and resets when the player has made a correct or incorrect move
 * Game has text to show game/player progression 
+* Game is available on most main internet browsers
+![image](https://user-images.githubusercontent.com/95102264/166145815-46d2d209-9408-4435-b9cb-86e7d48b3c11.png) Microsoft Edge.
+
  
 
 ## Languages Used

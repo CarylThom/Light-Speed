@@ -46,7 +46,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Imagery
 
-* The imagery included are - the background image, 
+![image](https://user-images.githubusercontent.com/95102264/166146855-1a4f3eab-18c8-4c64-a13f-840151ea988c.png) The background image. 
 
 ![image](https://user-images.githubusercontent.com/95102264/166146659-8d14f853-76c7-43b6-ab14-679d66e0d921.png) The tab Favicon. 
 

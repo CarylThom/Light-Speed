@@ -50,7 +50,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ![image](https://user-images.githubusercontent.com/95102264/166146659-8d14f853-76c7-43b6-ab14-679d66e0d921.png) The tab Favicon. 
 
-and an icon on the start button.
+![image](https://user-images.githubusercontent.com/95102264/166147002-2c8dd495-b0b4-4bfb-867f-be766a9f15b9.png) Icon on the start button.
 ## Wireframes
 
 ![image](https://user-images.githubusercontent.com/95102264/160589979-1d8d411c-ba54-4620-8d90-5246b3df13b5.png)

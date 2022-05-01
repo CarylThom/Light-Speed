@@ -62,7 +62,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * Game has text to show game/player progression 
 * Game is available on most main internet browsers
 ![image](https://user-images.githubusercontent.com/95102264/166145815-46d2d209-9408-4435-b9cb-86e7d48b3c11.png) Microsoft Edge.
-
+![image](https://user-images.githubusercontent.com/95102264/166146059-d6bf1a37-6308-4f00-93bd-987fcc0db621.png) Mozilla Firefox.
  
 
 ## Languages Used

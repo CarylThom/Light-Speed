@@ -90,7 +90,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 * Pencil: - Pencil was used to create the wireframe.
 
-* freepix: - Both images were obtained from this site.
+* Freepix: - Both images were obtained from this site.
 
 
 ## Testing
@@ -116,6 +116,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 * (4) write specific tests
 * (5) Run tests by typing 'npm test'
 * I fully acknowledge and understand that, in a real-world scenario, an extensive set of Jest tests would be more comprehensive.
+
 ![image](https://user-images.githubusercontent.com/95102264/166104536-44f915ad-1543-4510-a20a-7795a65da4b1.png)
 
 ## Deployment
@@ -153,7 +154,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content
 
-* All content was written by the developer.
+* Content was written by the developer.
 
 ### Media
 

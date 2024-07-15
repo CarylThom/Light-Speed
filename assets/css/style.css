@@ -3,7 +3,7 @@
 
 /*background image*/
 .game {
-  background: url("https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg") center center / cover no-repeat fixed;
+  background: url('https://img.freepik.com/free-vector/alien-planet-surface-with-craters_107791-26764.jpg?w=1380&t=st=1721030958~exp=1721031558~hmac=f0cdb2d7a15b850f98c90042809afccb9ccd9c5b86690f7156ec8ee6b5c38c3d') center center / cover no-repeat fixed;
   width: 100vw;
   overflow: hidden;
   height: 100vh;
@@ -48,7 +48,7 @@
   padding-top: 3%;
   border-radius: 50px;
   width: 50%;
-  background: #9fadb2;
+  background: #34235c;
   overflow: hidden;
   margin-top: 1%;
   opacity: 95%;
@@ -267,6 +267,34 @@
   font-size: 1rem;
   padding-bottom: 1%;
 } 
+}
+/* for laptop*/
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+  .button-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 55px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 12%;
+    margin-right: 10%;
+    }
+    #game-container {
+      width: 50%;
+      margin-top: 3%;
+      margin-left: 20%;
+      padding-bottom: 5%;
+      padding-left: 2%;
+   
+    }
+ 
 }
 
 

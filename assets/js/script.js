@@ -34,6 +34,11 @@ function activateButton(color) {
   setTimeout(() => {
     button.classList.remove('activated');
   }, 300);
+
+  /*sound*/
+  const sound = document.querySelector(`[data-sound='${color}']`);
+  button.classList.add('activated');
+  sound.play();
 }
 
 /*Function to activate next button sequence*/
@@ -76,6 +81,10 @@ function nextGame() {
 Also shows how many 'clicks' the player has left to complete the sequence*/
 function onClick(button) {
   const index = playerSequence.push(button) - 1;
+
+  /*sound*/
+  const sound = document.querySelector(`[data-sound='${button}']`);
+  sound.play();
 
 
   const remainingClicks = computerSequence.length - playerSequence.length;

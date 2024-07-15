@@ -46,7 +46,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Imagery
 
-![image](https://user-images.githubusercontent.com/95102264/166146855-1a4f3eab-18c8-4c64-a13f-840151ea988c.png) The background image. 
+![image](https://user-images.githubusercontent.com/95102264/166146855-1a4f3eab-18c8-4c64-a13f-840151ea988c.png) The background image. On feedback advice the background image was later changed ![image](https://img.freepik.com/free-vector/alien-planet-surface-with-craters_107791-26764.jpg?w=1380&t=st=1721030958~exp=1721031558~hmac=f0cdb2d7a15b850f98c90042809afccb9ccd9c5b86690f7156ec8ee6b5c38c3d)
 
 ![image](https://user-images.githubusercontent.com/95102264/166146659-8d14f853-76c7-43b6-ab14-679d66e0d921.png) The tab Favicon. 
 

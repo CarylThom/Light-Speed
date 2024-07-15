@@ -69,6 +69,12 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 ![image](https://user-images.githubusercontent.com/95102264/166146059-d6bf1a37-6308-4f00-93bd-987fcc0db621.png) Mozilla Firefox.
 ![image](https://user-images.githubusercontent.com/95102264/166146128-d33d7eb4-ed53-474d-b333-574ebd53320d.png) Google Chrome.
  
+ ## Sound
+ The game/button sounds were downloaded from FreeCodeCamp
+ * Purple - [https://s3.amazonaws.com/freecodecamp/simonSound1.mp3]
+ * Green - [https://s3.amazonaws.com/freecodecamp/simonSound2.mp3]
+ * Blue - [https://s3.amazonaws.com/freecodecamp/simonSound3.mp3]
+ * Orange - [https://s3.amazonaws.com/freecodecamp/simonSound4.mp3]
 
 ## Languages Used
 

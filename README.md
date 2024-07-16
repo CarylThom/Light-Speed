@@ -38,7 +38,7 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 
 ### Colour Scheme
 
-* The game has a light and colourful background (#9fadb2), text colour of black (#000) and white (#fafafa), with the main game buttons in different shades of purple (#d111df, #5c036d, #efc0f2 ), green (#35df5f, #1b8019, #b4eec0), blue (#5f5de5, #a8def5, #020c5a) and orange (#dd6b1f, #f7d19c, #a32d05).
+* The game has a one colour background (#05537e), text colour of white (#fff) (later changed from black), with the main game buttons in different shades of purple (#d111df, #5c036d, #efc0f2 ), green (#35df5f, #1b8019, #b4eec0), blue (#5f5de5, #a8def5, #020c5a) and orange (#dd6b1f, #f7d19c, #a32d05).
 
 ### Typography
 
@@ -47,6 +47,10 @@ As a First Time Visitor - As a game player I want a game that is visually appeal
 ### Imagery
 
 ![image](https://user-images.githubusercontent.com/95102264/166146855-1a4f3eab-18c8-4c64-a13f-840151ea988c.png) The background image. 
+
+ ![image](image.png) After feedback advice, the background image was changed.
+
+ ![image](image-1.png) Image was used as background for landing page.
 
 ![image](https://user-images.githubusercontent.com/95102264/166146659-8d14f853-76c7-43b6-ab14-679d66e0d921.png) The tab Favicon. 
 
